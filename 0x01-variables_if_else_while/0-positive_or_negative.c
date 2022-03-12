@@ -3,8 +3,10 @@
 #include <time.h>
 
 /*
- *  * main - Entry point
- *  * return: Always 0 (Success)
+ * * main description -  Completing the source code in order to print whether
+ the number stored in the variable n is positive or negative.
+ *
+ * * return: 0
  *
  */
 int main(void)
