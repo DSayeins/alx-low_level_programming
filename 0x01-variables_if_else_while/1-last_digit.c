@@ -3,13 +3,16 @@
 #include <time.h>
 
 /*
- * main - Complete the source code in order to print
- * the last digit of the number stored in the variable n.
+ * main - Entry point
  *
  * return: 0
  */
 int main(void)
 {
+	/*
+	 * Description: Complete the source code in order to print
+	 * the last digit of the number stored in the variable n.
+	 */
 	int n;
 
 	srand(time(0));

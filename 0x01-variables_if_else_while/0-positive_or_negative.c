@@ -2,13 +2,11 @@
 #include <stdlib.h>
 #include <time.h>
 
-/*
- * * main: Completing the source code in order to print whether
- the number stored in the variable n is positive or negative.
- *
- * * return: 0
- *
+/**
+ * main - Entry point
+ * Return: Always 0 (Success)
  */
+
 int main(void)
 {
 	int n;
