@@ -13,10 +13,8 @@ int main(void)
 	 * Description: Complete the source code in order to print
 	 * the last digit of the number stored in the variable n.
 	 */
-	int n;
+	int i;
 
-	srand(time(0));
-	n = rand() - RAND_MAX / 2;
 	/* your code goes there */
 	for (i = 97; i <= 122; i++)
 	{
