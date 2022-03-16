@@ -2,7 +2,7 @@
 
 /**
  * * _islower - Entry point
- * * @c
+ * * @c: the character to print
  * * Return: 0 or 1.
  */
 int _islower(int c)
