@@ -4,10 +4,11 @@
 /**
  * * main - Entry point
  *
- * * Return: Always 0. 
+ * * Return: Always 0.
  */
 int main(void)
 {
 	printf("_putchar\n");
-	return(0);
+
+	return (0);
 }
