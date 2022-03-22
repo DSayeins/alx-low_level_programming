@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * main - Entry point
+ * reset_to_98 - Entry point
  * @n: integer
  * Return: void
 */
