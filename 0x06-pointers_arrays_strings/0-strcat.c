@@ -1,13 +1,20 @@
-#include <unistd.h>
+#include "holberton.h"
 
 /**
- * _putchar - writes the character c to stdout
- * @c: The character to print
- *
- * Return: On success 1.
- * On error, -1 is returned, and errno is set appropriately.
+ * *_strcat - concatenates @src to @dest
+ * @src: the source string to append to @dest
+ * @dest: the destiation string to be concatenated upon
+ * Return:pointer to the resulting string
  */
-int _putchar(char c)
+
+char *_strcat(char *dest, char *src)
 {
-	return (write(1, &c, 1));
+	int index = 0;
+	int dest_len = 0;
+
+	while (dest[index++])
+		dest_len++;
+	for (index = 0; src[index]; index++)
+		dest[dest_len++] = src[index];
+	return (dest);
 }
