@@ -1,1 +1,1 @@
-no empty readme file
+**7. C - Even more pointers, arrays and strings**
